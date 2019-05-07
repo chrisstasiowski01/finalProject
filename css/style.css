@@ -1,21 +1,13 @@
-/*
-  Theme Name: Alstar
-  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
+/* taken from https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/ */
 
-/* ================================
-Imports
-================================= */
+
+/* Imports */
 @import url('font-awesome.min.css');
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
 
-/* ================================
-General
-================================= */
+/* general style */
 
 body{
 	text-align: center;
@@ -90,9 +82,7 @@ button.navbar-toggle {
 }
 
 
-/* ================================
-margin, padding
-================================= */
+/* margin and padding */
 .mar-top0 {
 	margin-top: 0;
 }
@@ -133,9 +123,7 @@ margin, padding
   outline: none;
 }
 
-/* ================================
-Navbar
-================================= */
+/* navbar */
 
 nav.navbar{
 	position: fixed;
@@ -180,7 +168,7 @@ nav.navbar.fixed-to-top{
 	outline: 0;
 }
 
-/* brand / logo */
+/* brand and logo */
 .navbar-default .navbar-brand{
 	color: #fff;
 	text-transform: uppercase;
@@ -188,16 +176,14 @@ nav.navbar.fixed-to-top{
 	font-size: 2em;
 }
 
-/* ================================
-Home sections
-================================= */
+/* home sections */
 
 .home-section {
 	width: 100%;
 	padding: 150px 0px 150px 0px;
 }
 
-/* --- heading --- */
+/* heading */
 .section-heading {
 	margin-bottom: 50px;
 }
@@ -218,7 +204,7 @@ Home sections
 }
 
 
-/* --- section bg var --- */
+/* section bg var */
 
 .bg-white {
 	background: #fff;
@@ -233,7 +219,7 @@ Home sections
 }
 
 
-/* --- section content general color --- */
+/* section content general color */
 
 .color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
 	color: #fff;
@@ -245,9 +231,7 @@ Home sections
 }
 
 
-/* ==========================
-Parallax
-============================= */
+/* Parallax */
 
 #parallax1{
 	background-image: url(../img/parallax/1.jpg);
@@ -257,9 +241,7 @@ Parallax
 }
 
 
-/* ================================
-Intro
-================================= */
+/* Intro */
 
 #intro {
   width: 100%;
@@ -408,9 +390,7 @@ Intro
   text-decoration: none;
 }
 
-/* ================================
-About
-================================= */
+/* About */
 
 #about .about-img {
   height: 350px;
@@ -457,18 +437,14 @@ About
   margin-bottom: 0;
 }
 
-/* ================================
-Team
-================================= */
+/* Team */
 .box-team img {
 	margin-bottom: 30px;
 }
 
 
 
-/* ================================
-Services
-================================= */
+/* Services */
 .service.carousel h4,.service.carousel p {
 	text-align: left;
 }
@@ -525,9 +501,7 @@ Services
 }
 
 
-/* ================================
-Works
-================================= */
+/* equipment */
 .og-grid {
 	list-style: none;
 	padding: 20px 0;
@@ -711,9 +685,7 @@ Works
 
 }
 
-/* ================================
-Contact
-================================= */
+/* Contact */
 
 .validation {
   color: red;
@@ -747,9 +719,7 @@ Contact
 	display:block;
 }
 
-/* ================================
-Clients
-================================= */
+/* Clients */
 ul.clients {
 	list-style: none;
 }
@@ -758,9 +728,7 @@ ul.clients li {
 }
 
 
-/* ================================
-Bottom widget
-================================= */
+/* Bottom widget */
 #bottom-widget {
   overflow: hidden;
 }
@@ -801,9 +769,7 @@ footer a:hover {
 	text-decoration: underline;
 }
 
-/* ================================
-more media queries
-================================= */
+/* other media queries */
 
 @media (max-width:768px) {
 
